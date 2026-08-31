@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #EEF2F6;
+}
+
+header{
+
+    background-color: #1B2537;
+color: white; text-align: center;
+padding: 50px 0px;
+
+
+}
+header h1{
+  color: #38bdf8;
+
+  font-family: sans-serif;
+
+   font-size: 37px;
+   letter-spacing: 2px;
+}
+header  p{
+    color: #B49E98;
+    padding: 10px;
+    
+    
+   
+}
+
+header nav a{
+  display: inline-block;
+    text-decoration: none;
+    display: contents;
+
+  background-color: #353b4c;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin: 10px 5px;
+ 
+  
+     
+}
+header nav a:hover{
+background-color: #38bdf8;
+}
+
+
+
+
+  main{
+    margin: auto;
+   
+   
+    max-width: 800px;
+ } 
+  
+ #about  {
+    padding: 40px;
+    background-color: white;
+    padding-left: 40px;
+   
+    border-radius: 3%;
+   margin-top: 40px;
+ }
+ #about p{
+  border-radius: 10px;
+  background-color: #EEF2F6;
+  padding: 20px;
+ }
+
+ .projects{
+    padding: 40px;
+    background-color: white;
+    padding-left: 40px;
+   
+    border-radius: 3%;
+  margin-top: 40px;
+ }
+  .projects h2{
+
+    border-left: 5px solid #38bdf8;
+    padding-left: 10px;
+ }
+ #intro {
+    padding: 40px;
+    background-color: white;
+    padding-left: 100px;
+   
+    border-radius: 3%;
+   margin-top: 40px;
+ }
+  #intro h2{
+
+    border-left: 5px solid #38bdf8;
+    padding-left: 10px;
+ }
+ #about h2{
+
+    border-left: 5px solid #38bdf8;
+    padding-left: 10px;
+ }
+#about figure{
+ text-align: center;
+ padding: 20px 0;
+
+   
+
+ }
+ #about figure img{
+border-radius: 50%;
+border: 4px solid #38bdf8;
+margin: 20px 0;
+object-fit: cover;
+
+ }
+  .figcaption {
+  color: #64748b;
+  font-style: italic;
+
+  }
+  #article{
+    display: flex;
+    margin: 30px 0px;
+gap: 20px;
+  }
+  #article article{
+    flex: 1;
+    background-color: #EEF2F6;
+    border-radius: 10px;
+    padding: 20px;
+   /* display: flex;
+    flex-direction: column;
+    gap: 10px;*/
+    border:1px solid #E2E8F0 ;
+    color: #10162A;
+  }
+   #article article p{
+font-size: 14px;
+color: #64748B;
+margin: 15px 0px;
+
+   }
+    #article article a{
+      border-radius: 10px;
+      background-color: #38BDF8;
+      padding: 10px 20px;
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+
+    }
+    #skills{
+      background-color: #F1F5F9;
+      border-radius: 10px;
+      padding: 20px;
+
+    }
+    #skills ul{
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      padding: 10px 0px;
+
+    }
+    #skills ul li{
+      list-style-type: none;
+      border-radius: 30px;
+      display: flex;
+      padding: 7px 18px;
+    color: #0369A1;
+    font-weight: 600;
+  
+
+    }
+    #intro {
+      text-align: center;
+    }
+    #intro h2{
+      text-align: left;
+    }
+  
+     
+    
+    #intro video{
+     padding: 30px;
+     object-fit: cover;
+     margin: auto;
+     border-radius: 40px;
+     border-color: 3px solid #CDB5E1;
+    }
+    footer{
+      margin: 50px auto;
+      max-width: 800px;
+      background-color: #141D30;
+      padding: 30px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+
+    }
+    footer h2{
+    border-left: 5px solid #38bdf8;
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+    }
+    footer p{
+      color: white;
+      padding: 6px 0px;
+
+    }
+    footer p a{
+      text-decoration: none;
+      color: #0284C7;
+      font-size: 20px;
+
+    }
+    footer p a:hover{
+      text-decoration: none;
+      color: #0284C7;
+      
+    }
+    form label{
+      display: block;
+      margin: 10px 0px;
+      color: white;
+      font-weight: 500;
+
+
+     
+    }
+     form {
+        max-width: 100%;
+      }
+    form input[type="text"],
+    form input[type="email"],
+    textarea{
+    background-color: #1E283B;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+
+    }
+
+
+
+
+
+
+  
